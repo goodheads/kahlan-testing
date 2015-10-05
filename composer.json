@@ -1,0 +1,22 @@
+{
+    "name": "unicodeveloper/kahlan-testing",
+    "authors": [
+        {
+            "name": "busayo",
+            "email": "prosperotemuyiwa@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev":{
+        "crysalead/kahlan": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Busayo\\": "src/",
+            "Busayo\\Spec\\": "spec/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
